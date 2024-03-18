@@ -1,5 +1,5 @@
 - name: installing the packages
-  hosts: localhost
+  # hosts: localhost
   become: yes
   tasks:
   - name: install package
