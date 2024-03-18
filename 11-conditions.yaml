@@ -7,6 +7,11 @@
     ansible.builtin.command: id roboshop
     register: output # This output is variable name.
     ignore_errors: true
+
   - name: print the command output
     ansible.builtin.debug:
       msg: "output is: {{output}}"
+
+  - name: print exit status
+    ansible.builtin.debug:
+      msg: "output is: {{output.rc}}"
