@@ -4,7 +4,13 @@
     NAME: Sivakumar-play
   tasks:
     - name: variable at task level
-      vars:
-        NAME: Sivakumar-task
+      # vars:
+      #   NAME: Sivakumar-task
       ansible.builtin.debug:
         msg: "Trainer name is: {{ NAME }}"
+
+
+# preference variables.
+# 1. command line.
+# 2. tasks.
+# 3. 
