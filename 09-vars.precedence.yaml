@@ -2,6 +2,8 @@
   hosts: mongodb
   # vars:
   #   NAME: Sivakumar-play
+  vars_files:
+    - variables.yaml
   tasks:
     - name: variable at task level
       # vars:
