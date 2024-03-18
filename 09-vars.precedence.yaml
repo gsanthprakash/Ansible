@@ -13,5 +13,7 @@
 # preference variables.
 # 1. command line.
 # 2. tasks.
-# 3. play
-# 4. inventory
+# 3. vars.files
+# 4. play
+# 5. inventory
+# 6. Roles
