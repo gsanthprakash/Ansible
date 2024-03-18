@@ -1,0 +1,10 @@
+192.168.2.1
+
+[mongodb]
+roboshop-us-dev-db-mongodb-01-gspaws.online
+
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
+
+
