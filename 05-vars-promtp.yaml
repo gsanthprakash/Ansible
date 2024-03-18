@@ -1,0 +1,13 @@
+- name: variables from promt
+  hosts: localhost
+  var_promt:
+  - name: USERNAME
+    prompt: please enter your user name
+    private: false # you can see the value entered on screen
+  - name: PASSWORD
+    prompt: please enter your PASSWORD
+    private: true # you can't see the value entered on screen
+  tasks:
+  - name: print variable values.
+    anisble.builtin.debug:
+      msg: "username: {{USERNAME}},  password: {{PASSWORD}}"
