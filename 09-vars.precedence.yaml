@@ -1,7 +1,7 @@
 - name: testing variable precedence
   hosts: mongodb
-  vars:
-    NAME: Sivakumar-play
+  # vars:
+  #   NAME: Sivakumar-play
   tasks:
     - name: variable at task level
       # vars:
@@ -13,4 +13,4 @@
 # preference variables.
 # 1. command line.
 # 2. tasks.
-# 3. 
+# 3. play
