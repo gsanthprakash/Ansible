@@ -1,0 +1,10 @@
+- name: variables from files
+  hosts: localhost
+  vars_files:
+  - variables.yaml
+  tasks:
+  - name: printing variables.yaml
+    anisble.builtin.debug:
+      msg: "we are learning {{}}"
+
+      
