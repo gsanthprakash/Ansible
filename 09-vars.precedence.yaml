@@ -1,5 +1,5 @@
 - name: testing variable precedence
-  hosts: localhost
+  hosts: mongodb
   vars:
     NAME: Sivakumar-play
   tasks:
