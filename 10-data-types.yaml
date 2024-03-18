@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
   - AGE: 30 # Intiger
-  - NAME: "" # String
+  - NAME: "GSP" # String
   - isDevOps: True #boolean
   - skills:
     - DevOps
