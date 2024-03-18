@@ -4,7 +4,7 @@
   - variables.yaml
   tasks:
   - name: printing variables.yaml
-    anisble.builtin.debug:
+    ansible.builtin.debug:
       msg: "we are learning {{}}"
 
-      
+  
