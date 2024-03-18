@@ -2,5 +2,5 @@
   hosts: localhost
   tasks: 
   - name: print variabel from command line
-    anisble.builtin.debug:
+    ansible.builtin.debug:
       msg: "The values of variable course is {{COURSE}}"
