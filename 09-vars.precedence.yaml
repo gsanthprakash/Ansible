@@ -3,7 +3,7 @@
   vars:
     NAME: Sivakumar-play
   tasks:
-  - name: variable at tasks level
+  - name: variable at task level
     vars:
       NAME: Sivakumar-task
     ansible.builtin.debug:
