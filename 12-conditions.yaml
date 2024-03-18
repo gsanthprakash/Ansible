@@ -6,4 +6,4 @@
     - name: run this if name is DevOps
       ansible.builtin.debug:
         msg: "Hello {{ name }}"
-      when: name == "DevOps"
+      when: name == "DevOps" # if this expression is true then only this module will run
