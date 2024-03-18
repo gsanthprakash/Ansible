@@ -17,6 +17,7 @@
       msg: "output is: {{output.rc}}"
 
   - name: create user roboshop
+    become: yes # sudo for this taks only
     ansible.builtin.user:
       name: roboshop
     when: output.rc != 0
