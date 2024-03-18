@@ -3,8 +3,8 @@
   vars:
     NAME: Sivakumar-play
   tasks:
-  - name: variable at task level
-    vars:
-      NAME: Sivakumar-task
-    ansible.builtin.debug:
-      msg: "Trainer name is: {{ NAME }}"
+    - name: variable at task level
+      vars:
+        NAME: Sivakumar-task
+      ansible.builtin.debug:
+        msg: "Trainer name is: {{ NAME }}"
