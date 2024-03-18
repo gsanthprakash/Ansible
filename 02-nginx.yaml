@@ -1,0 +1,14 @@
+# Playbook is list of plays, alwasy it should start with -
+- name: install and run the nginx
+  hosts: mongodb
+  # this is list of takss/modules/collections.
+  becom: yes
+  tasks:
+  - name: install nginx
+    ansible.builtin.yum:
+      name: inginx
+      state: installed
+  - name: start nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
